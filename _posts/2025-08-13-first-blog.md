@@ -15,7 +15,7 @@ This is my first blog post!
 
 I can insert images, if I put them in the `images` folder, and add a link to the image in my post.
 
-![a random image]({{site.baseurl}}images/my_photo.png)
+![a random image]({{site.baseurl}}images/IMG_4045.jpeg)
 
 
 ## Formatting
