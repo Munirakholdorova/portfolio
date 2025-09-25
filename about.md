@@ -5,4 +5,11 @@ layout: about
 
 # About me
 
-[write something about yourself here]
+[Name: Munira
+Surname: Kholdoriva
+Place of birth: Tajikistan
+
+Hobby: Reading 
+       Dancing
+       Sewing
+       Traveling ]
