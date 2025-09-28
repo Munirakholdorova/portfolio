@@ -15,5 +15,7 @@ Educational background: Tajik National University'Prgramming';
 Hobby: Reading 
        Dancing
        Sewing
-       Traveling ]
+       Traveling 
+       
+       image:images/IMG_8942.JPG]
        
