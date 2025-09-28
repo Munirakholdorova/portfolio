@@ -7,7 +7,7 @@ tags:
  - digital-humanities
  - manuscripts
  - projects
-image: images/IMG_8751.jpg
+image: images/IMG_9001.jpg
 ---
  
 **Project title:** Barlaam and Josaphat in Arabic Literature and Culture  
