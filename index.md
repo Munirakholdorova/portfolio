@@ -1,4 +1,4 @@
 ---
 layout: home
-image: images/IMG_8958.jpg
+image: images/IMG_1996.jpg
 ---
