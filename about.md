@@ -6,7 +6,7 @@ layout: about
 # About me
 
 
-[Name: Munira
+Name: Munira
 Surname: Kholdoriva
 Place of birth: Tajikistan
 Date of birth: 03/06/1996
@@ -17,5 +17,4 @@ Hobby: Reading
        Sewing
        Traveling 
        
-       image:images/IMG_8942.JPG]
-       
+![a random image]({{site.baseurl}}images/IMG_8942.JPG)      
