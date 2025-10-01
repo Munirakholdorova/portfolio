@@ -20,4 +20,4 @@ My Hobby:
 
 * Traveling 
        
-![a random image]({{site.baseurl}}images/IMG_8942.JPG)      
+    
