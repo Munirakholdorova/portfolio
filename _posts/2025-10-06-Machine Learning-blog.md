@@ -7,6 +7,8 @@ tags:
    
  - projects
 
+image: images/IMG_9001.jpg
+
 ---
  
 **Project title:** Machine Learning  
