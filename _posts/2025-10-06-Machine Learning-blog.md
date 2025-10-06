@@ -30,5 +30,5 @@ Smart cities are another example of how computer science is improving our world.
 
  Handwriting recognition is another area that has seen great improvements. The computer is trained using labelled data—images of numbers, for example—so it can learn to recognize handwriting by comparing new inputs with its prior knowledge. A similar technique is used in email spam detection, where thousands of emails are labelled as either spam or legitimate. The computer learns the patterns and characteristics of each type and can then classify new emails accordingly. This type of learning is called supervised learning, where the system is trained using input-output pairs.
 
- ![Barlaam manuscript]({{site.baseurl}}images/IMG_8752.jpg)
+ ![Barlaam manuscript]({{site.baseurl}}images/IMG_37015.jpg)
  
