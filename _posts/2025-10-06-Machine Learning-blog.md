@@ -7,7 +7,7 @@ tags:
    
  - projects
 
-image: images/IMG_9001.jpg
+image: images/IMG_37015.jpg
 
 ---
  
