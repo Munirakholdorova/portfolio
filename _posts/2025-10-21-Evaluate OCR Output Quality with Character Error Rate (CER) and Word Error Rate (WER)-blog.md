@@ -10,9 +10,16 @@ tags:
 
 
 
+
+---
+ 
+**Project title:** Machine Learning  
+
 ---
  
 **Project title:** Evaluate OCR Output Quality with Character Error Rate (CER) and Word Error Rate (WER) 
+
+
 The article discusses the use of Character Error Rate (CER) and Word Error Rate (WER) as metrics for evaluating OCR performance. Various metrics are used to assess text accuracy, and CER is one of the most common. It measures the number of character-level errors in OCR output, including substitution errors (incorrect characters), deletion errors (missing characters), and insertion errors (extra characters).
 To quantify these errors, the Levenshtein distance is used, which represents the minimum number of character substitutions, deletions, or insertions required to transform one text sequence into another. The CER formula calculates the percentage of mispredicted characters in relation to the total number of characters in the reference text. A lower CER indicates better OCR performance, with 0 representing a perfect transcription. In some cases, normalized CER is applied, dividing the number of errors by the sum of edit operations and the number of correct characters.
 
