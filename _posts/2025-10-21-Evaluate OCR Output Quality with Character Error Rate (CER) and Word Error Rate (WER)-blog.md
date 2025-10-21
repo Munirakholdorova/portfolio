@@ -11,9 +11,6 @@ tags:
 
 
 
----
- 
-**Project title:** Machine Learning  
 
 ---
  
