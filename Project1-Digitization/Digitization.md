@@ -2,18 +2,14 @@
 title: Digitization
 permalink: /Digitization/
 layout: page
-image: images/DH photo.jpeg
+image: images/ttttt.jpeg
 ---
 
   The main goal of our mini project was to digitise a historical Ismaili book from Gilgit-Baltistan. The original copy is preserved in the Ismaili Special Collections at the Aga Khan Library in London. Through this project, the manuscript was processed digitally to help preserve it for the long term and make it more accessible to researchers, community members, and digital archives. Another important aim of this project was for us to learn the full digitisation workflow and gain hands-on experience with tools that are part of digital humanities, such as Python, GitHub, the OCR process, and Metadata curation following archival standards and the Library of Congress transliteration guidelines. Apart from learning the technical side, this project also contributes to the Aga Khan Library’s growing digital collection, helping to preserve cultural heritage and making local materials part of the wider global digital humanities network.
 
-[Table of Contents]
+[Table of Contents](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail_Group%20-%20Sheet2-2.csv)
 
-(https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail_Group%20-%20Sheet2-2.csv)
-
-[To see the Metadata go to the link bellow]
-
-(https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail%20Metadata(1).txt)
+[To see the Metadata go to the link bellow](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail%20Metadata(1).txt)
 
   In our project, we are digitising a historical Ismaili book that contains an old manuscript. The book, Kitāb-i Tuḥfatah al-Nāẓirīn al-Maʿrūf Ṣaḥīfah bi-Inẓimām Sharḥ al-Marātib va Davāzdah Faṣl az Taḍyīfāt Sayyid Suhrāb Raḍavī al-Badakhshānī, is a rare twentieth-century Ismaili publication produced in Gilgit around 1940. It was printed by Intishārāt-i Ismāʿīliyyah, Idārat al-Balāghah, Markaz-i Gilgit and was arranged by Qudrat Allāh Beg and edited by Ghulām al-Dīn. The manuscript explores important religious and philosophical ideas such as Ismaili theology and spiritual interpretation, making it a valuable part of the community’s intellectual history.By digitising this book, we are helping to preserve an important piece of Ismaili cultural heritage and make it more accessible to readers and researchers. The original copy is very old and fragile, without its covers, so it was essential to protect it before it deteriorated further. Digitisation also helps people in remote areas or those who cannot visit the library to access and learn from this rare work. This process not only safeguards the manuscript but also connects our heritage with a wider digital world.
 
@@ -22,9 +18,7 @@ image: images/DH photo.jpeg
   The next important step was to upload the cleaned image set to eScriptorium, an open-source platform used for transcription, annotation, and training Handwritten Text Recognition (HTR) models. The images were first segmented with a fine-tuned model that had been trained on a small sample of manually annotated and labeled pages. For consistency, the region labeling process followed a custom annotation guideline created specifically for this project, based on the SegmOnto standard for Zones to ensure uniformity and compatibility with other datasets.
   After achieving a reasonably good segmentation, the Persian text of the manuscript was transcribed using the Kraken model gen2-print-n7m5-union-ft_best, which gave the highest average Character Accuracy Rate (CAR) of 0.83 among four models tested. Model performance was assessed with a Python script that used the error_rate function to calculate both Character Error Rate (CER) and Word Error Rate (WER) against the ground-truth transcription. The mean values were then used to compare accuracy across models. For Persian manuscript digitization, character-based metrics like CAR and CER were found to be more dependable than word-level ones such as WER, due to common spelling differences, ligatures, and occasional damage to characters in the text. The final transcribed results were exported as both image overlays and XML files, making them ready for further editing and digital publication.
   
-[Evaluation in python]
-
-(https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/munira_evaluate_transcription.py)
+[Evaluation in python](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/munira_evaluate_transcription.py)
 
   The entire project was really enjoyable and a great learning experience. Working together as a team and facing different challenges made us think collectively, and being there for each other throughout the process was very helpful. This project also taught us a lot about how important collaboration is in digital humanities, where sharing ideas and responsibilities helps everyone grow. We learned to balance using tools that were already available and developing our own technical skills. For example, some of the Python scripts we used, like the ones for renaming scanned images or comparing Character Error Rates for OCR models, were not originally ours, but we learned how to understand and apply them properly with the help of ChatGPT and the exercises we did in class. At first, I wasn’t sure why we were learning Python and GitHub together, but by the end of the project, it made complete sense—both were essential for managing and sharing our work. We also realized that even though automation can save a lot of time, it doesn’t always give perfect results. The segmentation model didn’t always work accurately, and while we wanted to fix everything manually, we decided to observe how the automated process performed on its own. This showed us that human involvement is still needed at different stages, like checking image quality or deciding how effective a script is. 
 
