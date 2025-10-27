@@ -7,7 +7,7 @@ image: images/ttttt.jpeg
 
   The main goal of our mini project was to digitise a historical Ismaili book from Gilgit-Baltistan. The original copy is preserved in the Ismaili Special Collections at the Aga Khan Library in London. Through this project, the manuscript was processed digitally to help preserve it for the long term and make it more accessible to researchers, community members, and digital archives. Another important aim of this project was for us to learn the full digitisation workflow and gain hands-on experience with tools that are part of digital humanities, such as Python, GitHub, the OCR process, and Metadata curation following archival standards and the Library of Congress transliteration guidelines. Apart from learning the technical side, this project also contributes to the Aga Khan Library’s growing digital collection, helping to preserve cultural heritage and making local materials part of the wider global digital humanities network.
 
-[Table of Contents](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail_Group%20-%20Sheet2-2.csv)
+To the see the table content created by our group[Table of Contents](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail_Group%20-%20Sheet2-2.csv)
 
 For the metadata of this text, see [Metadata](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail%20Metadata(1).txt)
 
