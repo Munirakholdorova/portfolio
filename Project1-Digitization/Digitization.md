@@ -9,7 +9,7 @@ image: images/ttttt.jpeg
 
 [Table of Contents](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail_Group%20-%20Sheet2-2.csv)
 
-[To see the Metadata go to the link bellow](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail%20Metadata(1).txt)
+For the metadata of this text, see [Metadata](https://raw.githubusercontent.com/Munirakholdorova/portfolio/refs/heads/master/Project1-Digitization/Rasail%20Metadata(1).txt)
 
   In our project, we are digitising a historical Ismaili book that contains an old manuscript. The book, Kitāb-i Tuḥfatah al-Nāẓirīn al-Maʿrūf Ṣaḥīfah bi-Inẓimām Sharḥ al-Marātib va Davāzdah Faṣl az Taḍyīfāt Sayyid Suhrāb Raḍavī al-Badakhshānī, is a rare twentieth-century Ismaili publication produced in Gilgit around 1940. It was printed by Intishārāt-i Ismāʿīliyyah, Idārat al-Balāghah, Markaz-i Gilgit and was arranged by Qudrat Allāh Beg and edited by Ghulām al-Dīn. The manuscript explores important religious and philosophical ideas such as Ismaili theology and spiritual interpretation, making it a valuable part of the community’s intellectual history.By digitising this book, we are helping to preserve an important piece of Ismaili cultural heritage and make it more accessible to readers and researchers. The original copy is very old and fragile, without its covers, so it was essential to protect it before it deteriorated further. Digitisation also helps people in remote areas or those who cannot visit the library to access and learn from this rare work. This process not only safeguards the manuscript but also connects our heritage with a wider digital world.
 
