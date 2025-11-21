@@ -1,5 +1,5 @@
 ---
-title: "Islami Heritage Sites"
+title: "Islamic Heritage Sites"
 excerpt_separator: "<!--more-->"
 categories:
   - project1
@@ -10,6 +10,8 @@ image: images/The-Majestic-Alhambra-spain-1024x536.webp
 ---
 
 This project asks whether it is possible to identify long-term trends in the share of Islam-related sites within UNESCO World Heritage inscriptions from 1978 to the present, and how these proportions have shifted over time. To explore this, we developed a Python-based workflow that processes UNESCO’s official site description files, extracts the year of inscription from the filenames, searches the text for Islamic keyword indicators, and visualizes how their relative share has evolved. The workflow focuses on changes in the percentage of newly added sites that contain terms associated with Islam and uses both yearly and five-year aggregated views to reveal broader patterns.
+
+<!--more-->
 
 Our dataset consists of local copies of the World Heritage List text files, each representing a single site. Because each filename begins with the inscription year, we were able to sort sites chronologically without relying on external metadata. To detect possible Islamic relevance, we used a simple keyword approach: if a description included any of the words mosque, muslim, or islam (in any letter case), we counted the site as Islam-related. This approach is only a proxy; some Islamic sites may not use those exact words in the description, while others may include the terms incidentally or in comparative contexts. In addition, UNESCO’s writing style, translation practices, and editorial conventions have changed over time, which can influence how often such words appear independently of any real change in heritage prioritization.
 
