@@ -1,6 +1,27 @@
 ---
-title: Post Archive
-layout: posts
-permalink: /posts/
-entries_layout: list
+---
+title: "Islamic Heritage Sites in UNESCO"
+excerpt_separator: "<!--more-->"
+categories:
+  - project1
+tags:
+  - Projects
+  - Islamic Heritage
+image: images/The-Majestic-Alhambra-spain-1024x536.webp
+---
+
+  This project asks whether it is possible to identify long-term trends in the share of Islam-related sites within UNESCO World Heritage inscriptions from 1978 to the present, and how these proportions have shifted over time. To explore this, we developed a Python-based workflow that processes UNESCO’s official site description files, extracts the year of inscription from the filenames, searches the text for Islamic keyword indicators, and visualizes how their relative share has evolved. The workflow focuses on changes in the percentage of newly added sites that contain terms associated with Islam and uses both yearly and five-year aggregated views to reveal broader patterns.
+
+  Our dataset consists of local copies of the World Heritage List text files, each representing a single site. Because each filename begins with the inscription year, we were able to sort sites chronologically without relying on external metadata. To detect possible Islamic relevance, we used a simple keyword approach: if a description included any of the words mosque, muslim, or islam (in any letter case), we counted the site as Islam-related. This approach is only a proxy; some Islamic sites may not use those exact words in the description, while others may include the terms incidentally or in comparative contexts. In addition, UNESCO’s writing style, translation practices, and editorial conventions have changed over time, which can influence how often such words appear independently of any real change in heritage prioritization.
+
+  For each year, we computed two values: the absolute number of sites containing at least one keyword and the percentage of that year’s inscriptions that these sites represent. Because some years have many more inscriptions than others, the percentage measure is more informative. To highlight medium-term developments, we also grouped years into five-year intervals and averaged the yearly percentages within each interval. Importantly, the calculation divides by the number of years that actually appear in the data for each interval rather than automatically dividing by five, since some intervals include fewer inscription years.
+  
+  The results show noticeable variation over time. In the early years of the World Heritage List, the share of Islam-related sites tended to lie around 14 percent but climbed through the mid-1980s to roughly 20 percent. From the late 1980s into the 1990s the proportion dropped sharply, reaching a low point of around 11 percent. A major upswing began in the early 2000s, with the five-year average surpassing 21 percent, after which the share remained relatively strong through the 2010s before decreasing again in the early 2020s to around 12 percent. Individual years can be even more extreme: 1985 and 2003 show unusually high peaks of about 30 percent and 29 percent respectively, while 1994, 1998, and 2025 fall to lows of around 3 percent.
+
+  These fluctuations correspond broadly to wider historical and institutional circumstances. The rise in the 1980s reflects UNESCO’s early effort to correct regional imbalances and the active heritage diplomacy of several Muslim-majority countries. The decline in the 1990s coincides with shifts in UNESCO’s thematic focus and reduced resources. The early 2000s resurgence aligns with renewed international attention to Islamic cultural heritage, while the more recent decrease reflects UNESCO’s expanding attention to other underrepresented regions. In short, the changing percentage of Islam-related inscriptions mirrors evolving global priorities, political contexts, and the nomination strategies of member states.
+
+<!--more-->
+
+
+
 ---
