@@ -8,7 +8,7 @@ tags:
   - Islamic Heritage
 image: images/The-Majestic-Alhambra-spain-1024x536.webp
 ---
-
+ 
 This project asks whether it is possible to identify long-term trends in the share of Islam-related sites within UNESCO World Heritage inscriptions from 1978 to the present, and how these proportions have shifted over time. To explore this, we developed a Python-based workflow that processes UNESCO’s official site description files, extracts the year of inscription from the filenames, searches the text for Islamic keyword indicators, and visualizes how their relative share has evolved. The workflow focuses on changes in the percentage of newly added sites that contain terms associated with Islam and uses both yearly and five-year aggregated views to reveal broader patterns.
 
 <!--more-->
