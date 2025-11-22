@@ -12,7 +12,7 @@ image: images/Try-Magic-Write-5.png
 
 Natural Language Processing (NLP) is a cornerstone of artificial intelligence, serving as the link between human language and machine comprehension. Named Entity Recognition (NER) is a key information-extraction task within Natural Language Processing (NLP) that identifies and categorizes specific entities—such as people, organizations, places, medical terms, dates, quantities, and monetary amounts—into predefined groups
 
-I compare how ChatGPT explains these topics versus how they’re described in DataCamp’s detailed blog posts. My goal is to help readers understand both the technology and the value of seeking explanations from different sources.
+I compare how ChatGPT explains these topics versus how they’re described in DataCamp’s detailed blog posts on [NLP](https://www.datacamp.com/blog/what-is-natural-language-processing) and [NER](https://www.datacamp.com/blog/what-is-named-entity-recognition-ner). My goal is to help readers understand both the technology and the value of seeking explanations from different sources.
 
 <!--more-->
 
