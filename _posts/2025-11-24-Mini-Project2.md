@@ -21,4 +21,4 @@ My main research question is: Why do undocumented migrants rely on informal soci
 
 There are some challenges I expect. Many texts are anonymised, which can make identifying people or networks difficult. The corpus is small and varied in style, so some digital methods may not work as well as they do on larger datasets. Ethical considerations are also important, because the topic involves a vulnerable group and sensitive material. Finally, the interview-style narratives can be uneven or fragmented, which can make computational analysis less straightforward.
 
-## Despite these issues, I believe the project will offer useful insights. Combining digital tools with close reading may help me highlight how undocumented migrants talk about trust, risk, and relationships when finding work, contributing to a better understanding of hidden labour markets in the UK.
+Despite these issues, I believe the project will offer useful insights. Combining digital tools with close reading may help me highlight how undocumented migrants talk about trust, risk, and relationships when finding work, contributing to a better understanding of hidden labour markets in the UK.
