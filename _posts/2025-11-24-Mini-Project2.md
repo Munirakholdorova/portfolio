@@ -11,14 +11,48 @@ image: images/healthcare-12-00686-g002.png
 
 ### Mini Project Proposal: Digital Analysis of Trust, Risk, and Reputation in Undocumented Migrant Labour Networks
 
-For my Mini Project, I will study a small collection of texts connected to my dissertation topic on how undocumented migrants in the UK find work through informal social networks. Because these workers are often hidden from official records, most available information comes from interviews, personal stories, and NGO reports. By applying digital methods to these texts, I hope to understand how migrants describe their routes into work and how trust, risk, and reputation shape these difficult situations.
+For my Mini Project, I ask Which economic sectors employ the highest number of unauthorized migrant workers? Because these workers are often hidden from official records, the data is not direct and will need integration from several data sets. By applying DH methods, the work combines public government datasets, OCR extraction of statistical tables, and Python-based NER analysis to explore labour patterns among migrants. 
+
 
 <!--more-->
 
-My corpus will come from three public sources. The first is King’s College London’s London’s Undocumented Workers project, [which includes interviews and thematic reports about work conditions] (https://www.kcl.ac.uk/research/londons-undocumented-workers). The second is JCWI’s We Are Here report, [which contains anonymised stories about migrants’ job experiences] (https://www.jcwi.org.uk/we-are-here). The third source is a set of reports from FLEX, such as Unsafe and Unseen and Risky Work, [which include interview excerpts and descriptions of informal recruitment](https://www.labourexploitation.org). These texts together provide interview extracts, short narratives, and personal accounts that will form the basis of my digital analysis.
+### Data Corpus#
 
-My main research question is: Why do undocumented migrants rely on informal social networks to access work, and how do trust, risk, and reputation influence these relationships? To explore this, I plan to use keyword analysis, topic modelling, and simple entity extraction to identify recurring themes, the language used to describe risk and trust, and the social actors involved. I may also look briefly at sentiment patterns to see how migrants express fear, support, or uncertainty around different types of work contacts.
+My corpus will come from six data sets The corpus includes publicly available datasets relevant to the question. Each source contributes sectoral, demographic, or labour-market variables needed for comparative analysis. These datasets contain downloadable CSVs, Excel files, and PDF-based statistical releases that requires OCR.
 
-There are some challenges I expect. Many texts are anonymised, which can make identifying people or networks difficult. The corpus is small and varied in style, so some digital methods may not work as well as they do on larger datasets. Ethical considerations are also important, because the topic involves a vulnerable group and sensitive material. Finally, the interview-style narratives can be uneven or fragmented, which can make computational analysis less straightforward.
+## Data Sources#
 
-Despite these issues, I believe the project will offer useful insights. Combining digital tools with close reading may help me highlight how undocumented migrants talk about trust, risk, and relationships when finding work, contributing to a better understanding of hidden labour markets in the UK.
+[Migration and the Labour Market, England and Wales: Census 2021 (ONS)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/migrationandthelabourmarketenglandandwales/census2021) 
+
+[Ethnicity Facts & Figures – Employment by Sector (UK Government)](https://www.ethnicity-facts-figures.service.gov.uk/work-pay-and-benefits/employment/employment-by-sector/latest/#data-sources)
+
+[UK Labour Market Bulletin: Employment and Employee Types (ONS)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/2015-10-14)
+
+[Annual Survey of Hours and Earnings (ASHE) linked to 2011 Census](https://datacatalogue.adruk.org/browser/dataset/124775/1/1034719)
+
+[Immigration System Statistics (UK Government):  These enforcement-related datasets are used for information on sectors and for samples of unauthorized work and arrest](https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-september-2025)
+
+[Illegal Working & Returns Statistical Releases (selected tables only for contextual separation of authorized vs unauthorized work)](https://www.gov.uk/government/publications/returns-from-the-uk-and-illegal-working-activity-since-july-2024)
+ 
+## Digital Humanities Process
+
+### Data Collection and OCR with eScriptorium#
+After downloading the datasets, PDF based statistical tables must be extracted with OCR. Using eScriptorium and a numerically oriented OCR model suitable for statistical documents, it could be exported to results in structured formats like csv. 
+
+### Data Cleaning#
+Cleaning includes correcting OCR digit errors, removing stray characters, and retaining only key variables such as sector, migrant status, year, and work-visa category. This  will create compatible datasets ready for integration.
+
+### Data Integration#
+Python pandas is used to merge the datasets. Each cleaned CSV is loaded into a DataFrame. This allows datasets to be aligned and migrant employment variables to be combined across sources. Integration also includes filtering the data to include only unauthorized or illegal migrants based on visa categories or census classifications. Economic sector categories vary across sources, so a master list of standardized sectors is created. 
+
+### Analysis with Python#
+
+With integrated data, pandas is used to compute aggregated values such as the total number of migrant workers per sector. Grouping and sorting operations identify the most common sectors of unauthorized migrant employment. 
+
+### Visualization in Python#
+Data visualization is performed using matplotlib, which allows the creation of bar charts, pie charts, or simple line graphs comparing years. Visual representations support interpretation by clearly showing which sectors dominate migrant employment patterns. 
+
+## Ethical Considerations#
+Working with migration and labour data requires careful ethical reflection. Although the datasets are aggregated and publicly released, it is essential to avoid drawing simplistic or harmful conclusions about migrant communities or reinforcing stereotypes about the kinds of work migrants “typically” do. Government categories such as “migrant,” “work visa,” or “sector worker” are not neutral. They are products of specific administrative aims, policies, and political contexts. Their limitations must be acknowledged throughout the analysis. It is also important to distinguish clearly between authorized and unauthorized work and to avoid misinterpreting enforcement statistics. 
+
+
