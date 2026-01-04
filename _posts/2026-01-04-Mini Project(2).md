@@ -6,7 +6,7 @@ categories:
 tags:
   - experiments
   - Mini Project
-image: images/healthcare-12-00686-g002.png
+image: images/158bfa00-3556-11f0-8519-3b5a01ebe413.jpg
 ---
 
 ### Mini Project Proposal: Digital Analysis of Trust, Risk, and Reputation in Undocumented Migrant Labour Networks
