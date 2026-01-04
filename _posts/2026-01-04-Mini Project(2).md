@@ -19,6 +19,7 @@ image: images/158bfa00-3556-11f0-8519-3b5a01ebe413.jpg
   The corpus consisted of BBC News articles initially stored in CSV format. I applied keyword tagging, searching for terms related to illegal migrant labour (e.g., illegal, undocumented, foreign worker) and employment sectors (e.g., construction, restaurant, agriculture). Each article was automatically tagged based on the presence of sector keywords, and frequency counts were then used to identify the most commonly mentioned sectors. By identifying recurring lexical markers related to migration status and work domains, the corpus was transformed from unstructured text into analysable data, enabling frequency-based comparison across sectors.
 During this process, I encountered a formatting issue: although I initially thought the corpus was in CSV format, it was actually an Excel spreadsheet. After converting it to CSV, the keyword tagging process worked correctly.
 
+image: images/Screenshot 2026-01-04.jpg
 ## Visualization
 
   I also visualized my findings to make the results more interpretable. The bar chart showed that BBC News reporting most frequently associates illegal migrant labour with the restaurant, construction, and delivery sectors, while agriculture and cleaning are mentioned less often. Initially, I had considered using a network graph, but it proved too confusing to implement, so I opted for the simpler and clearer bar chart instead.
