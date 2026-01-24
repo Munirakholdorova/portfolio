@@ -2,7 +2,7 @@
 title: Projects 2
 layout: page
 permalink: /projects 2/
-image: images/ttttt.jpeg
+image: images/Screenshot 2026-01-24 at 03.29.56.png
 ---
 
 <!--more-->
