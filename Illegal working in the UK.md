@@ -1,5 +1,5 @@
 ---
-title: Projects 2
+title: Illegal work in the UK
 layout: page
 permalink: /projects 2/
 image: images/Screenshot 2026-01-24 at 03.29.56.png
@@ -7,7 +7,7 @@ image: images/Screenshot 2026-01-24 at 03.29.56.png
 
 <!--more-->
 
-## Mini-project 2: 
+## Illegal work in the UK
 This mini-project examines how illegal working in the UK is represented in BBC News reporting, with a focus on identifying the employment sectors most frequently associated with such cases. Using a corpus of BBC News articles, the project applies digital methods introduced in the second part of the course, including web scraping, corpus cleaning, keyword-based text analysis, geographic data extraction, and data visualisation. Through this process, I learned how to transform unstructured news texts into structured datasets, address methodological challenges such as duplicate counts and geographic inconsistencies, and critically reflect on the limits of automated analysis. The project demonstrates how computational approaches can support systematic and reproducible analysis of media discourse and provides a foundation for more detailed investigation in later stages of my research.
 
 ## Research Question 
@@ -15,7 +15,7 @@ One of the key components of this mini project was developing a clear research q
 
 Which employment sectors are most frequently associated with illegal working in the UK according to BBC News reporting?
 
-## Context about my Mini-project
+## Context of Research 
 This mini-project focuses on the issue of illegal working in the UK and examines it exclusively through BBC News reports. Although I initially considered including additional news sources such as The Guardian and The Times, these were ultimately excluded because they often report on the same cases, which could result in overlapping data. This topic is particularly meaningful to me not only because it forms part of my thesis, but also because I have been living in the UK for over a year and have encountered situations related to illegal employment. These personal experiences motivated me to explore how people find illegal work and how such cases are represented in the media. Analysing BBC News reports allows me to examine this issue from a specific media perspective. In the later stages of my thesis, I plan to conduct interviews, which will provide insight into real-life experiences of illegal working. Comparing these first-hand accounts with how illegal work is reported in the media is especially interesting, as it allows for a critical examination of the differences and similarities between media narratives and lived realities. Moreover, the topic is closely connected to everyday social challenges that many people currently face.
 
 ## Corpus I gathered 
