@@ -5,7 +5,7 @@ categories:
   - project1
 tags:
   - project
-image: images/The-Majestic-Alhambra-spain-1024x536.webp
+image: images/Work.jpg
 ---
 
 ## mini-project 2-2: 
