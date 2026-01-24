@@ -2,6 +2,7 @@
 title: Projects 2
 layout: page
 permalink: /projects 2/
+image: images/ttttt.jpeg
 ---
 
 <!--more-->
