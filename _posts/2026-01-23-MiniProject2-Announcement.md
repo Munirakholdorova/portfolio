@@ -5,7 +5,7 @@ categories:
   - project1
 tags:
   - project
-image: images/Work.jpg
+image: images/Work(1).png
 ---
 
 <!--more-->
